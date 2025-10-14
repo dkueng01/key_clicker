@@ -10,8 +10,9 @@ from PIL import Image
 
 # === SETTINGS ===
 APP_NAME = "KeyClicker Pro"
-SOUNDS_DIR = "Sounds"
-ICON_PATH = "icon.ico"
+BASE_PATH = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+SOUNDS_DIR = os.path.join(BASE_PATH, "Sounds")
+ICON_PATH = os.path.join(BASE_PATH, "icon.ico")
 AUTO_START_REG_KEY = r"Software\Microsoft\Windows\CurrentVersion\Run"
 DELAY = 0.05  # Mindestabstand zwischen Sounds (Sekunden)
 

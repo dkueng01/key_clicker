@@ -1,0 +1,78 @@
+# --- Python build / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.pdb
+
+# Distribution / packaging
+build/
+dist/
+*.spec
+*.egg
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+env.bak/
+ENV/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+*.code-workspace
+
+# Windows / macOS system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# Audio / binaries - optional (wenn zu groß zum Committen)
+# kommentiere aus, wenn du Sounds versionieren willst
+# Sounds/*.wav
+# *.webm
+
+# PyInstaller build artefacts
+*.manifest
+*.spec
+
+# Logs
+*.log
+
+# Generated EXE or temporary output
+main.exe
+*.exe
+*.dll
+
+# Git / metadata that shouldn't be tracked
+*.bak
+*.tmp
+*.swp
